@@ -2,9 +2,11 @@ package com.maijijun.hibernate.test;
 
 import com.maijijun.hibernate.bean.HibrenateTableEntity;
 import com.maijijun.hibernate.utils.HBUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.hibernate.*;
 import org.junit.jupiter.api.Test;
 
+@Slf4j
 public class hibernateTest {
 //	@Test
 //	public void  add(){

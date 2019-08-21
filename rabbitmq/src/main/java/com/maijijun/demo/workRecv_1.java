@@ -1,8 +1,8 @@
 package com.maijijun.demo;
 
 import com.rabbitmq.client.*;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;

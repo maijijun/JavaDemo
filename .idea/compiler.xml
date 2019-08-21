@@ -8,8 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="send" />
         <module name="hibernate" />
+        <module name="druid" />
         <module name="recv" />
-        <module name="javademo" />
+        <module name="mybatis" />
       </profile>
     </annotationProcessing>
   </component>
