@@ -11,6 +11,11 @@
     <modules>
         <module>druid</module>
         <module>mybatis</module>
+        <module>struts</module>
+        <module>spring</module>
+        <module>springmvc</module>
+        <module>jetty</module>
+        <module>springboot</module>
     </modules>
 
     <properties>
@@ -28,6 +33,11 @@
         </dependency>
 
         <!--java连接mysql-->
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.4</version>
+        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
