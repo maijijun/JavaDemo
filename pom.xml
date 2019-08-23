@@ -16,6 +16,7 @@
         <module>springmvc</module>
         <module>jetty</module>
         <module>springboot</module>
+        <module>ssm</module>
     </modules>
 
     <properties>
@@ -42,6 +43,7 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.17</version>
+            <scope>runtime</scope>
         </dependency>
 
         <!-- 日志-->

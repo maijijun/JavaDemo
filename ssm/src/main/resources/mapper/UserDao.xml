@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为UserDao接口方法提供sql语句配置 -->
+<mapper namespace="com.maijijun.ssm.dao.IUserDao">
+
+    <select id="findUserById" resultType="com.maijijun.ssm.model.User" parameterType="int">
+        SELECT * FROM user WHERE id = #{id}
+    </select>
+<!--    <insert id="insertUser">-->
+<!--        INSERT INTO MybatisTable VALUES (default ,"maijijun","non",18,200,196,default )-->
+<!--    </insert>-->
+
+</mapper>
